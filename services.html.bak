@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '002fcc499d709c8a14ff2251e79c9b4c94eb533a';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script> <title>Car Service and Repair - Car Repair Service and MOT testing | Our Services</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="page-wrapper"> <!-- Preloader -->
+      <div class="preloader"></div>
+      <!-- Main Header -->
+      <header class="main-header">
+        <div class="header-top">
+          <div class="auto-container">
+            <div class="row clearfix">
+              <!--Logo-->
+              <div class="col-md-3 col-sm-3 col-xs-12 logo"><a href="index"><img
+
+                    src="images/logo.png" alt="Carshire" title="Carshire"></a></div>
+              <div class="col-lg-5 col-md-6 col-sm-10 header-top-infos pull-right">
+                <ul class="clearfix">
+                  <li>
+                    <div class="clearfix "> <img src="images/icons/header-phone.png"
+
+                        alt="">
+                      <p><b>Call Us Now</b> <br>
+                        01189876300</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="clearfix "> <img src="images/icons/header-timer.png"
+
+                        alt="">
+                      <p><b>Opening Hours</b> <br>
+                        Mon - Sat 9.30 - 18.00</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Header Lower-->
+        <div class="header-lower">
+          <div class="auto-container">
+            <div class="row clearfix">
+              <!--Main Menu-->
+              <nav class="col-md-9 col-sm-12 col-xs-12 main-menu">
+                <div class="navbar-header">
+                  <!-- Toggle Button --> <button type="button" class="navbar-toggle"
+
+                    data-toggle="collapse" data-target=".navbar-collapse"> <span
+
+                      class="icon-bar"></span> <span class="icon-bar"></span> <span
+
+                      class="icon-bar"></span> </button> </div>
+                <div class="navbar-collapse collapse clearfix">
+                  <ul class="navigation">
+                    <li><a href="index">Home</a> </li>
+                    <li><a href="about">About</a></li>
+                    <li class="current"><a href="services">Services</a>
+                      <ul class="submenu">
+                      </ul>
+                    </li>
+                    <li><a href="https://www.manyautosltd.com/contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <!--Main Menu End-->
+              <!--Social Links-->
+              <div class="col-md-3 col-sm-12 col-xs-12 social-outer">
+                <div class="social-links text-right"> <a href="https://www.facebook.com/manyautoslimited/"
+
+                    class="fa fa-facebook-f"></a> <a href="https://twitter.com/manyautos"
+
+                    class="fa fa-twitter"></a> <a href="https://www.instagram.com/manyauto/"
+
+                    class="fa fa-instagram"></a> <a href="https://www.google.com/search?q=many+autos&amp;rlz=1C1GGRV_enGB752GB752&amp;oq=many+autos&amp;aqs=chrome.0.0l3j69i61j69i60l2.3808j1j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x48769b68660a75cd:0x5f023a994d9e67fc,1,,,"
+
+                    class="fa fa-google"></a> <a href="https://www.pinterest.co.uk/manyautos"
+
+                    class="fa fa-pinterest-p"></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--End Main Header -->
+      <!-- Page Banner -->
+      <section class="page-banner" style="background-image:url(images/background/page-banner-1.jpg);">
+        <div class="auto-container">
+          <div class="page-title">
+            <h1>Our Services</h1>
+          </div>
+          <div class="bread-crumb text-right"> <span class="initial-text">you
+              are here: </span> <a href="about">About Us</a> <span class="current">Our
+              Services</span> </div>
+        </div>
+      </section>
+      <!--Services Section-->
+      <section class="services-section">
+        <div class="auto-container">
+          <div class="sec-title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+            <h3>OUR SERVICES</h3>
+          </div>
+          <div class="row clearfix">
+            <article class="col-md-4 col-sm-12 col-xs-12 post wow fadeInUp" data-wow-delay="0ms"
+
+              data-wow-duration="1000ms">
+              <div class="inner">
+                <div class="icon"><span class="flaticon-power19"></span></div>
+                <h3 class="post-title">Battery and Alternator</h3>
+                <div class="text">Battery or Alternator problems? We are able to
+                  arrange recovery or to jump start the car, diagnose and fix
+                  any battery and alternator problems. We can also come and fit
+                  the battery at your door</div>
+              </div>
+            </article>
+            <article class="col-md-4 col-sm-12 col-xs-12 post wow fadeInUp" data-wow-delay="0ms"
+
+              data-wow-duration="1000ms">
+              <div class="inner">
+                <div class="icon"><span class="flaticon-gasoline"></span></div>
+                <h3 class="post-title">Wrong fuel</h3>
+                <div class="text">If you have put the wrong fuel in your tank,
+                  don't worry. We are able to service and repair all vehicles
+                  with incorrect fuel. Call us to arrange recovery if needed.</div>
+              </div>
+            </article>
+            <article class="col-md-4 col-sm-12 col-xs-12 post wow fadeInUp" data-wow-delay="0ms"
+
+              data-wow-duration="1000ms">
+              <div class="inner">
+                <div class="icon"><span class="flaticon-transport100"></span></div>
+                <h3 class="post-title">Yearly weather inspection</h3>
+                <div class="text">We offer winter weather inspections. With the
+                  UK's unreliable weather it is always best to get your car
+                  checked to make sure each and every journey is safe.</div>
+              </div>
+            </article>
+            <article class="col-md-4 col-sm-12 col-xs-12 post wow fadeInUp" data-wow-delay="0ms"
+
+              data-wow-duration="1000ms">
+              <div class="inner">
+                <div class="icon"><span class="flaticon-vehicle71"></span></div>
+                <h3 class="post-title">Electric diagnostics</h3>
+                <div class="text">Electrical problems? We have skilled and
+                  experienced staff mechanics that are able to find the problem
+                  and give you a quote for the repairs so there are no
+                  surprises.</div>
+              </div>
+            </article>
+            <article class="col-md-4 col-sm-12 col-xs-12 post wow fadeInUp" data-wow-delay="0ms"
+
+              data-wow-duration="1000ms">
+              <div class="inner">
+                <div class="icon"><span class="flaticon-wrenches8"></span></div>
+                <h3 class="post-title">Vehicle Servicing</h3>
+                <div class="text">The type of service you choose for your car
+                  will be dependent on various factors, including the condition
+                  of your car, the number of miles you drive and the last time
+                  your car was serviced. We offer two types of service for you
+                  Full Service which includes a comprehensive 70 points check
+                  while Interim Service has a 50 points check.</div>
+              </div>
+            </article>
+            <article class="col-md-4 col-sm-12 col-xs-12 post wow fadeInUp" data-wow-delay="0ms"
+
+              data-wow-duration="1000ms">
+              <div class="inner">
+                <div class="icon"><span class="flaticon-vehicle92"></span></div>
+                <h3 class="post-title">Quality work, quickly</h3>
+                <div class="text">We repair over 95% of all of the vehicles that
+                  come in for regular maintenance the same day. Our collection
+                  and delivery service can mean the car is fixed without any
+                  effort on your behalf.</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--Our Gallery-->
+      <section class="gallery-section no-padd-top">
+        <div class="auto-container">
+          <div class="sec-title">
+            <h3>Our Gallery</h3>
+          </div>
+          <!--Carousel-->
+          <div class="gallery-slider column-carousel four-column">
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-4.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-4.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-4.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-5.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-5.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-5.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-6.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-6.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-6.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-7.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-7.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-7.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-8.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-8.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-8.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-9.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-9.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-9.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-10.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-10.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-10.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-11.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-11.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-11.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-10.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-10.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-10.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-12.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-12.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-12.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-13.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-13.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-13.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+            <article class="slide-item">
+              <figure class="image-box"><a href="images/resource/post-image-9.jpg"
+
+                  class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-9.jpg"
+
+                    alt=""></a></figure>
+              <a href="images/resource/post-image-9.jpg" class="overlay lightbox-image"
+
+                title="Awsome Title Here"></a>
+              <div class="item-caption">
+                <h4><strong>CLEAN &amp; PAINT</strong></h4>
+                <p>Mercedes Benz Company Car</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--Our Features Section-->
+      <section class="features-section column-view">
+        <div class="auto-container">
+          <div class="sec-title">
+            <h3>Our Features</h3>
+          </div>
+          <!--Column Carousel-->
+          <div class="column-carousel four-column clearfix">
+            <article class="column-box">
+              <div class="inner-box hvr-float-shadow">
+                <figure class="image"> <a href="#"><img src="images/resource/post-image-6.jpg"
+
+                      alt="Image" title="Featured Service"></a> </figure>
+                <div class="post-content clearfix">
+                  <h3 class="skew-lines">BRAKES</h3>
+                  <div class="text-center"><a href="https://www.manyautosltd.com/service-booking"
+
+                      class="theme-btn btn-style-one"><span class="fa fa-angle-right"></span>
+                      GET A QUOTE</a></div>
+                </div>
+              </div>
+            </article>
+            <article class="column-box">
+              <div class="inner-box hvr-float-shadow">
+                <figure class="image"> <a href="#"><img src="images/resource/post-image-7.jpg"
+
+                      alt="Image" title="Featured Service"></a> </figure>
+                <div class="post-content clearfix">
+                  <h3 class="skew-lines">SUSPENSION </h3>
+                  <div class="text-center"><a href="https://www.manyautosltd.com/service-booking"
+
+                      class="theme-btn btn-style-one"><span class="fa fa-angle-right"></span>
+                      GET A QUOTE</a></div>
+                </div>
+              </div>
+            </article>
+            <article class="column-box">
+              <div class="inner-box hvr-float-shadow">
+                <figure class="image"> <a href="https://www.manyautosltd.com/service-booking"><img
+
+                      src="images/resource/post-image-8.jpg" alt="Image" title="Featured Service"></a>
+                </figure>
+                <div class="post-content clearfix">
+                  <h3 class="skew-lines">EXHAUSTS</h3>
+                  <div class="text-center"><a href="https://www.manyautosltd.com/service-booking"
+
+                      class="theme-btn btn-style-one"><span class="fa fa-angle-right"></span>
+                      GET A QUOTE</a></div>
+                </div>
+              </div>
+            </article>
+            <article class="column-box">
+              <div class="inner-box hvr-float-shadow">
+                <figure class="image"> <a href="https://www.manyautosltd.com/service-booking"><img
+
+                      src="images/resource/post-image-9.jpg" alt="Image" title="Featured Service"></a>
+                </figure>
+                <div class="post-content clearfix">
+                  <h3 class="skew-lines">REPAIR SERVICE</h3>
+                  <div class="text-center"><a href="https://www.manyautosltd.com/service-booking"
+
+                      class="theme-btn btn-style-one"><span class="fa fa-angle-right"></span>
+                      GET A QUOTE</a></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--Intro Section / Theme Two-->
+      <section class="intro-section theme-two">
+        <div class="auto-container">
+          <div class="border clearfix">
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+              <h3>Book an MOT and a service together and get a £10 discount</h3>
+            </div>
+            <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 text-right"> <a
+
+                href="https://www.manyautosltd.com/service-booking" class="theme-btn dark-btn"><span
+
+                  class="fa fa-angle-right"></span> order now</a> </div>
+          </div>
+        </div>
+      </section>
+      <!--Price Plans-->
+      <section class="price-plans no-padd-top">
+        <div class="auto-container">
+          <div class="sec-title">
+            <h3>plans and pricing</h3>
+          </div>
+          <div class="row clearfix">
+            <!--Table Column-->
+            <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn"
+
+              data-wow-delay="0ms" data-wow-duration="1000ms">
+              <div class="table-inner">
+                <div class="table-header">
+                  <h3>MOT TEST</h3>
+                </div>
+                <div class="price-column price">
+                  <h4 class="amount">£29.99</h4>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>yearly MOT test</li>
+                    <li>Free Retest</li>
+                    <li>Emissions and exhaust test</li>
+                    <li>Collection and delivery</li>
+                  </ul>
+                </div>
+                <a href="https://www.manyautosltd.com/service-booking" class="read-more hvr-bounce-to-right"><span
+
+                    class="fa fa-angle-right"></span> book now</a> </div>
+            </article>
+            <!--Table Column-->
+            <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn"
+
+              data-wow-delay="200ms" data-wow-duration="1000ms">
+              <div class="table-inner">
+                <div class="table-header">
+                  <h3>Interim Service</h3>
+                </div>
+                <div class="price-column price">
+                  <h4 class="amount">£99</h4>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>Oil service</li>
+                    <li>Collection and delivery</li>
+                    <li>Oil and Oik Filter</li>
+                    <li>50 point vehicle check</li>
+                  </ul>
+                </div>
+                <a href="https://www.manyautosltd.com/service-booking" class="read-more hvr-bounce-to-right"><span
+
+                    class="fa fa-angle-right"></span> book now</a> </div>
+            </article>
+            <!--Table Column-->
+            <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn"
+
+              data-wow-delay="400ms" data-wow-duration="1000ms">
+              <div class="table-inner">
+                <div class="table-header">
+                  <h3>FULL SERVICE</h3>
+                </div>
+                <div class="price-column price">
+                  <h4 class="amount">£159</h4>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>Full service</li>
+                    <li>70 point vehicle checks</li>
+                    <li> drive and test</li>
+                    <li>Collection and Delivery </li>
+                  </ul>
+                </div>
+                <a href="https://www.manyautosltd.com/service-booking" class="read-more hvr-bounce-to-right"><span
+
+                    class="fa fa-angle-right"></span> book now</a> </div>
+            </article>
+            <!--Table Column-->
+            <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn"
+
+              data-wow-delay="600ms" data-wow-duration="1000ms">
+              <div class="table-inner">
+                <div class="table-header">
+                  <h3>MAJOR SERVICE</h3>
+                </div>
+                <div class="price-column price">
+                  <h4 class="amount">£199</h4>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>Collection and delivery</li>
+                    <li>Filters and fluids</li>
+                    <li> drive and test</li>
+                    <li>full vehicle checks</li>
+                  </ul>
+                </div>
+                <a href="https://www.manyautosltd.com/service-booking" class="read-more hvr-bounce-to-right"><span
+
+                    class="fa fa-angle-right"></span> order now</a> </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--Sponsors-->
+      <!--Contact Options-->
+      <section class="contact-options">
+        <div class="clearfix">
+          <ul class="info-box clearfix wow bounceInRight">
+            <li><a href="https://www.manyautosltd.com/service-booking"><span class="fa fa-calendar"></span>
+                Make an appointment</a></li>
+            <li><a href="Tel:01189876300"><span class="fa fa-phone"></span>
+                Contact Us</a> </li>
+          </ul>
+        </div>
+      </section>
+      <!--Main Footer-->
+      <footer class="main-footer">
+        <!--Footer Upper-->
+        <div class="footer-upper">
+          <div class="auto-container">
+            <div class="row clearfix">
+              <!--Footer Widget-->
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="footer-widget contact-widget">
+                  <h3>Contact Us</h3>
+                  <div class="text">.</div>
+                  <ul class="info">
+                    <li><strong>Phone</strong> <a href="#">01189876300</a></li>
+                    <li><strong>Website</strong> <a href="http://www.allcompare.co.uk">http://www.allcompare.co.uk</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!--Footer Widget-->
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="footer-widget services-widget">
+                  <h3>Our Services</h3>
+                  <ul class="links">
+                    <li><a href="https://www.manyautosltd.com/Collection-and-Recovery"><i
+
+                          class="fa fa-check-circle"></i>Car collection and
+                        delivery</a></li>
+                    <li><a href="https://www.manyautosltd.com/car-service"><i class="fa fa-check-circle"></i>Car
+                        servicing and maintenance</a></li>
+                    <li><a href="https://www.manyautosltd.com/online-service-book"><i
+
+                          class="fa fa-check-circle"></i>Online service record
+                        updating</a></li>
+                    <li><a href="https://www.manyautosltd.com/unwanted-cars"><i
+
+                          class="fa fa-check-circle"></i>Car selling and buying
+                        service</a></li>
+                    <li><a href="https://www.manyautosltd.com/vehicle-engine-diagnostic-services"><i
+
+                          class="fa fa-check-circle"></i>car diagnostic
+                        assessment service</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!--Footer Widget-->
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="footer-widget support-widget">
+                  <h3>Our Support</h3>
+                  <ul class="links">
+                    <li><a href="https://www.manyautosltd.com/service-booking"><i
+
+                          class="fa fa-check-circle"></i>How to get started?</a></li>
+                    <li><a href="https://www.manyautosltd.com/faq"><i class="fa fa-check-circle"></i>Frequently
+                        asked questions</a></li>
+                    <li><a href="https://www.google.com/search?q=many+autos&amp;rlz=1C1GGRV_enGB752GB752&amp;oq=many+autos&amp;aqs=chrome.0.0l3j69i61j69i60l2.3808j1j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x48769b68660a75cd:0x5f023a994d9e67fc,1,,,"><i
+
+                          class="fa fa-check-circle"></i>Customer testimonials</a></li>
+                    <li><a href="https://www.manyautosltd.com/service-booking"><i
+
+                          class="fa fa-check-circle"></i>Get a free quote</a></li>
+                    <li><a href="https://www.manyautosltd.com/faq"><i class="fa fa-check-circle"></i>Help
+                        &amp; Support Center</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!--Footer Widget--> </div>
+          </div>
+        </div>
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+          <div class="auto-container">
+            <div class="row clearfix">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="copyright">Copryright by Many Autos LTD | All rights
+                  reserved</div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="social-links"> <a href="https://www.facebook.com/manyautoslimited/"
+
+                    class="fa fa-facebook-f"></a> <a href="https://twitter.com/manyautos"
+
+                    class="fa fa-twitter"></a> <a href="https://www.instagram.com/manyauto/"
+
+                    class="fa fa-instagram"></a> <a href="https://www.google.com/search?q=many+autos&amp;rlz=1C1GGRV_enGB752GB752&amp;oq=many+autos&amp;aqs=chrome.0.0l3j69i61j69i60l2.3808j1j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x48769b68660a75cd:0x5f023a994d9e67fc,1,,,"
+
+                    class="fa fa-google"></a> <a href="https://www.pinterest.co.uk/manyautos/"
+
+                    class="fa fa-pinterest-p"></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--End pagewrapper-->
+    <!--Scroll to top-->
+    <div class="scroll-to-top"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

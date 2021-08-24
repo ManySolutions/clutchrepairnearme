@@ -1,0 +1,88 @@
+/* bootstrap tabs*/
+.nav-tabs {
+  border-bottom: none;
+  .nav-item {
+    margin-bottom: 0;
+  }
+  .nav-link {
+    border-radius: 0;
+    background-color: $greyColor;
+    margin-right: 4px;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .nav-item.show .nav-link,
+  .nav-link.active {
+    border-color: $colorMain;
+    background: $colorMain;
+    color: $lightColor;
+  }
+}
+
+.nav-link {
+  padding: 17px 44px;
+  color: $darkgreyColor;
+  @media (max-width: 767px) {
+    padding: 17px 13px;
+  }
+  .small-tabs & {
+    padding: 10px 15px;
+  }
+}
+
+.tab-content {
+  border: 1px solid $borderColorRGBA;
+  padding: 44px 40px 42px;
+  @media (max-width: 767px) {
+    padding: 24px 20px 21px;
+  }
+}
+
+.tab-pane {
+  .media {
+    img {
+      max-width: 40%;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+    h3, h4, h5 {
+      font-weight: 900;
+    }
+  }
+}
+
+.vertical-tab.nav-tabs {
+  padding: 41px 30px 70px;
+  @media (max-width: 767px) {
+    padding: 21px 30px 50px;
+  }
+  .nav-item {
+    border-bottom: 1px solid rgba($fontColor, 0.2);
+    font-weight: 500;
+    font-size: 20px;
+    &.show .nav-link, .nav-link.active {
+      background-color: transparent;
+      border-color: inherit;
+      border: 0;
+      color: $colorMain;
+
+    }
+   .nav-link {
+      border: 0;
+      padding: 25px 0;
+    }
+  }
+}
+
+.vertical-tab-content {
+  padding: 48px 30px 52px;
+   @media (max-width: 767px) {
+    padding: 28px 30px 32px;
+  }
+}
+
+

@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:GMT Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T010000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Leslie, Chris":MAILTO:chris.leslie@glass.co.uk
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=info@manya
+ utosltd.com:MAILTO:info@manyautosltd.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Peel, Juli
+ e":MAILTO:julie.peel@autovistagroup.com
+DESCRIPTION;LANGUAGE=en-US:Mudassar\n\nPlease find confirmation of our meet
+ ing as discussed. Julie Peel will be joining us in order to assist with th
+ e implementation process as discussed\n\nKind Regards\n\nChris\n\n........
+ ..........................................................................
+ .......................................................\nJoin Skype Meetin
+ g<https://meet.unifiedcaas.net/5wnru5ae5ot/chris.leslie/Y2MLF93M>\nTrouble
+  Joining? Try Skype Web App<https://meet.unifiedcaas.net/5wnru5ae5ot/chris
+ .leslie/Y2MLF93M?sl=1>\nJoin by phone\n\n0871 402 0577\,\,5135895# (United
+  Kingdom)                                English (United Kingdom)\n\nFind 
+ a local number<https://dialin.unifiedcaas.net/dialin?id=5135895>\n\nConfer
+ ence ID: 5135895\nForgot your dial-in PIN?<https://dialin.unifiedcaas.net/
+ dialin> |Help<https://o15.officeredir.microsoft.com/r/rlidLync15?clid=1033
+ &p1=5&p2=2009>\n\n[!OC([1033])!]\n........................................
+ ..........................................................................
+ .......................\n\n
+UID:040000008200E00074C5B7101A82E00800000000D0F8E1CBE37DD501000000000000000
+ 010000000B5917A53CFAC3843807A06ED10198517
+SUMMARY;LANGUAGE=en-US:Implementation Meeting 
+DTSTART;TZID=GMT Standard Time:20191017T100000
+DTEND;TZID=GMT Standard Time:20191017T104500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20191008T132400Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Skype Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:403220451
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:https://meet.unifiedcaas.net/5wnru5ae
+ 5ot/chris.leslie/Y2MLF93M
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:chris.leslie@glass.co.uk\;gruu\;
+ opaque=app:conf:focus:id:Y2MLF93M?conversation-id=p1615H0YT2t5
+X-MICROSOFT-CONFERENCETELURI:tel:08714020577\,\,5135895
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Skype Meeting"\,"LocationAnnotation"
+ :""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationSt
+ ate":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddre
+ ss":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

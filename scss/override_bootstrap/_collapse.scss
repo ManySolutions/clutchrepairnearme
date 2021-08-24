@@ -1,0 +1,92 @@
+/* bootstrap collapse*/
+//unstyled
+[data-toggle="collapse"] {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  margin-bottom: 13px;
+  &:after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px;
+
+    font-size: 10px;
+    font-family: 'FontAwesome';
+    content: "\f078";
+  }
+  &.collapsed {
+    &:after {
+      content: "\f054";
+    }
+  }
+}
+
+//cards as tabs
+[role="tablist"] {
+  .card {
+    border-radius: 0;
+    border: none;
+    background: none;
+  }
+  .card-header {
+    padding: 0;
+    background: none;
+    border: none;
+    a {
+      display: block;
+      position: relative;
+      padding: 11px 45px 24px 0;
+      border-bottom: 2px solid $colorMain;
+      &:before,
+      &:after {
+        font-weight: 500;
+        text-align: center;
+        font-family: inherit;
+        font-size: 20px;
+        content: '';
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 50%;
+        bottom: 0;
+        color: $colorMain;
+        transition: opacity 0.3s ease-in-out;
+      }
+      &:after {
+        border: 2px solid rgba($borderColor, 0.4);
+        line-height: 27px;
+        margin-top: -21px;
+        top: 50%;
+        bottom: auto;
+        content: '-';
+        background: none;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+      &.collapsed {
+        font-weight: 300;
+        border-bottom: 1px solid rgba($fontColor, 0.2);
+        &:after {
+          content: '+';
+          margin-top: -21px;
+        }
+      }
+    }
+  }
+  .card-body {
+    padding: 0 0 23px;
+  }
+  .media img {
+    max-width: 80px;
+  }
+}
+
+.accordion {
+  padding: 13px 30px 17px;
+  background-color: $greyColor;
+}

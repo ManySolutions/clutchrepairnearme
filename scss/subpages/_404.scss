@@ -1,0 +1,40 @@
+/*
+** 404
+*/
+
+.error-404 {
+  .page-header {
+    h3 {
+      font-size: 100px;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1;
+      margin: 0;
+      @media (min-width: 992px) {
+        font-size: 238px;
+      }
+    }
+    p {
+      font-size: 24px;
+      margin-top: 30px;
+      @media (min-width: 768px) {
+        font-size: 48px;
+        margin-top: 75px;
+      }
+    }
+  }
+  .page-content {
+    margin-top: 30px;
+    @media (min-width: 768px) {
+      margin-top: 74px;
+    }
+    @media (max-width: 767px) {
+      a:last-child,
+      span {
+        display: none;
+      }
+    }
+  }
+  .widget_search {
+    margin: 58px 0;
+  }
+}

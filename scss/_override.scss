@@ -1,0 +1,227 @@
+/*
+** Bootstrap Overrides
+*/
+@import 'override_bootstrap/breadcrumbs';
+@import 'override_bootstrap/forms';
+@import 'override_bootstrap/carousel';
+@import 'override_bootstrap/tabs';
+@import 'override_bootstrap/collapse';
+@import 'override_bootstrap/dropdowns';
+
+//making container 1170px width for wide screens
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+//other bootstrap elements
+/* modal */
+.modal-open {
+  padding-right: 0 !important;
+}
+
+.modal-backdrop.show {
+  background-color: #13283f;
+  opacity: 0.7;
+}
+
+.modal-content {
+  border-radius: 1px;
+  [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* bootstrap buttons */
+.btn {
+  font-size: 16px;
+  letter-spacing: 0;
+  border-width: 2px;
+  text-transform: none;
+  padding: 11px 39px;
+  border-radius: 0;
+  @media (max-width: 767px) {
+    margin-bottom: 5px;
+  }
+  &.btn-big {
+    padding: 16px 39px;
+  }
+   &.btn-small {
+    padding: 7px 39px; 
+    @media (max-width: 767px) {
+      padding: 7px 25px; 
+    }
+  } 
+  //for icons
+  &.round,
+  &.rounded {
+    padding: 23px;
+    line-height: 1;
+  }
+  + span {
+    margin: 0 25px; 
+    @media (max-width: 767px) {
+      margin: 10px;
+    }
+  }
+}
+
+/* media elements */
+.media > img {
+  display: block;
+}
+
+.media-body {
+  h3, h4, h5, h6 {
+    margin-bottom: 7px;
+  }
+
+  * + &,
+  & + * {
+    margin-left: 14px;
+  }
+}
+
+//for media component inside table - for dashboard
+td .media-body {
+  width: auto;
+}
+
+// our custom video placeholser
+.embed-responsive-3by2 {
+  //height property removed in v4
+  height: 0;
+  padding-bottom: 45.1%;
+  background-color: $darkBlueColor;
+  a > img {
+    opacity: 0.3;
+  }
+   a:hover > img {
+    opacity: 0.3;
+  }
+}
+
+.embed-placeholder {
+  &:after {
+    transition: all 0.3s ease-in-out;
+    content: "\e903";
+    font-family: 'icomoon';
+    position: absolute;
+    color: $lightColor;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  &:hover:after {
+    color: $colorMain;
+  }
+}
+
+.alert {
+  border-radius: 0;
+  border-width: 0 0 0 4px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.mark, mark {
+  background-color: transparent;
+}
+
+button.close {
+  min-width: 0;
+}
+
+/* small in headings */
+.h1 .small,
+.h1 small,
+.h2 .small,
+.h2 small,
+.h3 .small,
+.h3 small,
+.h4 .small,
+.h4 small,
+.h5 .small,
+.h5 small,
+.h6 .small,
+.h6 small,
+h1 .small,
+h1 small,
+h2 .small,
+h2 small,
+h3 .small,
+h3 small,
+h4 .small,
+h4 small,
+h5 .small,
+h5 small,
+h6 .small,
+h6 small {
+  color: inherit;
+  font-weight: 300;
+}
+
+/* labels */
+.label-success {
+  color: $lightColor;
+  background-color: $colorSuccess;
+}
+
+.label-info {
+  color: $lightColor;
+  background-color: $colorInfo;
+}
+
+.label-warning {
+  color: $lightColor;
+  background-color: $colorWarning;
+}
+
+.label-danger {
+  color: $lightColor;
+  background-color: $colorDanger;
+}
+
+/*progressbar*/
+p + .progress {
+  margin-top: -10px;
+}
+
+.progress {
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 1px;
+  margin-bottom: 25px;
+  margin-top: 13px;
+  overflow: visible;
+  position: relative;
+  [data-transitiongoal] {
+    width: 0;
+  }
+  &:last-child {
+    margin-bottom: 10px;
+  }
+  .progress-bar {
+    transition: width 0.5s ease 0.2s;
+    border-radius: 5px;
+    box-shadow: none;
+    color: inherit;
+    height: 4px;
+    margin-top: -1px;
+    span {
+      color: $darkColor;
+      font-size: 16px;
+      position: absolute;
+      right: 0;
+      top: -39px;
+    } 
+  }
+}

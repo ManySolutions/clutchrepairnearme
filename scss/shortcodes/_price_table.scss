@@ -1,0 +1,115 @@
+.pricing-plan {
+  position: relative;
+  transition: transform 0.6s ease 0s;
+  text-align: center;
+  padding: 40px 30px;
+  background-repeat: no-repeat;  
+  @media(max-width: 767px) {
+    margin-bottom: 15px !important;
+  }
+   @media(max-width: 991px) {
+    margin-bottom: 10px;
+  }
+  .plan-button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    @media(max-width: 991px) {
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+  }
+  &.plan1 {
+    background-color: #ff7b3c;
+    background-image: url("../img/price-bg01.png");
+  } 
+  &.plan2 {
+    background-color: #ff633c;
+    background-image: url("../img/price-bg02.png");
+    background-position: bottom left;
+  } 
+  &.plan3 {
+    background-color: #ff4e3c;
+    background-image: url("../img/price-bg03.png");
+  } 
+  &.plan4 {
+    background-color: #ff3c45;
+    background-image: url("../img/price-bg04.png");
+    background-position: bottom right;
+  } 
+  .plan-description {
+    margin: 41px 0 14px;
+     @media(max-width: 767px) {
+      margin: 31px 0 14px;
+    }
+  }
+  .price-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 50px;
+    font-weight: 700;
+
+    &[class*='bg-'] {
+      padding: 30px 30px 10px;
+      margin-top: 50px;
+      margin-bottom: 0;
+    }
+  }
+  [class*='bg-'] {
+    padding: 10px 30px 30px;
+    margin-left: -41px;
+    margin-right: -41px;
+  }
+  .plan-name {
+    &[class*='bg-'] {
+      padding-top: 30px;
+      margin-top: -40px;
+    }
+    h5 {
+      line-height: 1;
+    }
+  }
+
+  @media(min-width: 1200px) {
+    padding: 65px 30px 60px;
+    [class*='bg-'] {
+      margin-left: -61px;
+      margin-right: -61px;
+    }
+    .plan-name[class*='bg-'] {
+      margin-top: -57px;
+    }
+  }
+
+  .plan-features {
+    margin: 46px 0 0;
+    @media(max-width: 767px) {
+      margin: 36px 0 0;
+    }
+    ul {
+      padding-left: 0;
+      list-style: none;
+      li {
+        padding: 3px 0; 
+      }
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &.plan-featured {
+    border: 10px solid $colorMain;
+    transform: translateY(-10px);
+    .plan-button {
+      top: 48px;
+    }
+  }
+  &:hover {
+    transform: translateY(-20px);
+    @media(max-width: 1199px) {
+      transform: translateY(0);
+    }
+  }
+}
+

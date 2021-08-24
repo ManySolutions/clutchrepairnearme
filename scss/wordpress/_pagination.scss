@@ -1,0 +1,138 @@
+/*
+** WordPress Page Links and Pagination
+*/
+.page-item,
+.nav-links,
+.page-links {
+  clear: both;
+  & > span,
+  & > a {
+    border: 1px solid rgba($borderColor, 0.2);
+    border-radius: 0 !important;
+    color: $fontColor;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 0;
+    padding: 7px;
+    min-width: 40px;
+    text-align: center;
+    line-height: inherit;
+    font-weight: 400;
+    &:hover {
+      background-color: $colorMain;
+      color: $lightColor;
+    }
+  }
+  &.active > a,
+  & > span {
+    background-color: $colorMain !important;
+    color: $lightColor;
+    cursor: not-allowed;
+    border-color: $colorMain !important;
+  }
+  .fa {
+    font-size: 16px;
+    color: $colorMain;
+  }
+  .dots {
+    position: relative;
+    top: -3px;
+    left: 2px;
+    letter-spacing: 2px;
+    border-color: transparent;
+    font-size: 24px;
+     &:hover {
+      color: inherit;
+      background-color: transparent;
+    }
+  }
+}
+
+//page and comments links smaller
+.comments-pagination,
+.page-links {
+  .page-numbers,
+  & > span,
+  a {
+    //min-width: 2em;
+  }
+}
+
+.page-links a:first-child {
+  margin-left: 1em;
+}
+
+//blog styles
+.pagination {
+  margin-top: 70px;
+  justify-content: center;
+  @media(max-width: 991px) {
+    margin-top: 30px;
+  }
+}
+
+//blog post
+.post-nav {
+  margin: 60px 0 0;
+  position: relative;
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    & > div {
+      width: 50%;
+      height: auto;
+      //display: flex;
+      //align-items: center;
+      //justify-content: center;
+      position: relative;
+      padding: 30px 40px;
+      text-align: right;
+
+      transition: 0.2s opacity ease;
+      &:hover {
+        opacity: 0.9;
+      }
+      @media(max-width: 575px) {
+        width: 100%;
+      }
+      .fa {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+      }
+      &:first-child {
+        text-align: left;
+        .fa {
+          right: auto;
+          left: 0;
+        }
+      }
+    }
+    .nav-subtitle {
+      @include small-text();
+      text-align: center;
+      min-width: 8em;
+      padding: 0.25em 0.8em 0.05em;
+      display: inline-block;
+    }
+    .nav-title {
+      display: block;
+    }
+
+    a {
+      @include cover();
+
+    }
+  }
+  //for .cover-image
+  .post-nav-image {
+    display: none;
+  }
+  .cover-image {
+    .post-nav-text-wrap {
+      text-align: center;
+    }
+  }
+}

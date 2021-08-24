@@ -1,0 +1,112 @@
+/*search modal*/
+#search_modal {
+  padding: 0 !important;
+  .widget {
+    padding: 20px 0;
+    background-color: $lightColor;
+    @media (min-width: 1200px) {
+      &:before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        height: 100px;
+        width: 100%;
+        background: url("../img/logo-dark.png") no-repeat 0 0;
+        opacity: 1;
+      }
+    }
+  }
+  .search-form {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 40px 0 0;
+    border-bottom: 1px solid rgba($fontColor, 0.2);
+    @media (max-width: 1500px) {
+      max-width: 750px;
+    }
+  }
+  a {
+    @include small-text();
+    color: $lightColor;
+    &:hover {
+      color: $colorMain;
+      opacity: 1;
+    }
+  }
+  .searchform-respond {
+    width: 300px;
+    margin: 20px auto;
+    color: $lightColor;
+  }
+  .form-group {
+    margin-bottom: 0;
+  }
+  .form-control {
+    padding-right: 10px;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    color: $darkgreyColor;
+    width: 100%;
+    max-width: none;
+    font-size: 20px;
+  }
+  .form-control:-moz-placeholder {
+    color: $fontColor;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: $fontColor;
+    opacity: 1;
+  }
+
+  .form-control:-ms-input-placeholder {
+    color: $fontColor;
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: $fontColor;
+  }
+  .btn {
+    color: $darkgreyColor;
+    width: auto;
+    font-size: 0;
+    padding: 0;
+    margin: 6px 10px 0 0;
+    &:before {
+      font-size: 18px;
+      color: $darkgreyColor;
+
+    }
+  }
+  .close {
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    color: $darkgreyColor;
+    text-shadow: none;
+    opacity: 1;
+    z-index: 2;
+    font-size: 30px;
+    border-radius: 50%;
+    &:active {
+      top: 23px !important;
+    }
+  }
+
+  .active-side-header & {
+    right: $sideHeaderWidth;
+  }
+}
+
+.search_modal_button {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0 0 0 10px;
+}

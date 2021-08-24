@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Car repair, MOT and Servicing</title>
+    <!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	<![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>	<![endif]-->
+  </head>
+  <body> <!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>	<![endif]-->
+    <div class="preloader">
+      <div class="preloader_image"></div>
+    </div>
+    <!-- search modal -->
+    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal"
+
+      id="search_modal"> <button type="button" class="close" data-dismiss="modal"
+
+        aria-label="Close"> <span aria-hidden="true">×</span> </button>
+      <div class="widget widget_search">
+        <form method="get" class="searchform search-form" action="/">
+          <div class="form-group"> <input value="" name="search" class="form-control"
+
+              placeholder="Search keyword" id="modal-search-input" type="text">
+          </div>
+          <button type="submit" class="btn">Search</button> </form>
+      </div>
+    </div>
+    <!-- Unyson messages modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+      <div class="fw-messages-wrap ls p-normal">
+        <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+        <!--
+		<ul class="list-unstyled">			<li>Message To User</li>
+		</ul>		--> </div>
+    </div>
+    <!-- eof .modal -->
+    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="modalLoginForm"
+
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="row c-gutter-0"> <button type="button" class="close" data-dismiss="modal"
+
+            aria-label="Close"> <span>×</span> </button>
+          <div class="col-6">
+            <div class="modal-content">
+              <div class="modal-header justify-content-center">
+                <h4 class="modal-title">Sign in</h4>
+              </div>
+              <div class="modal-body">
+                <form action="/">
+                  <div class="form-group has-placeholder"> <label for="name-sigin">Your
+                      Name:</label> <input class="form-control" id="name-sigin"
+
+                      placeholder="Enter your name" name="First name" type="text">
+                  </div>
+                  <div class="form-group has-placeholder"> <label for="sigpassword">Password:</label>
+                    <input class="form-control" id="sigpassword" placeholder="password"
+
+                      name="sigpassword" type="password"> </div>
+                  <div class="modal-password"> <a href="#" class="modal-password-btn">Forgot
+                      password?</a> </div>
+                  <div class="modal-footer d-flex justify-content-center"> <button
+
+                      type="submit" class="btn btn-small btn-maincolor log-btn">Log
+                      in</button> </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 ds s-overlay"> <img src="images/modal-login-form.jpg"
+
+              alt=""> </div>
+        </div>
+      </div>
+    </div>
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+      <div id="box_wrapper">
+        <!-- template sections -->
+        <div class="header_absolute s-parallax ds bs s-overlay">
+          <!--topline section visible only on small screens|-->
+          <section class="page_toplogo ds s-overlay s-pt-10 s-pb-5 s-py-lg-30">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-12">
+                  <div class="d-lg-flex justify-content-lg-end align-items-lg-center">
+                    <div class="mr-auto">
+                      <!--
+							if you want to display toplogo info on smaller screens							than use following CSS classes below:
+						 	d-sm-flex justify-content-sm-center						 -->
+                      <div class="d-none d-lg-flex justify-content-center justify-content-lg-start">
+                        <a href="./" class="logo"> <img src="images/logo.png" alt="">
+                          <span class="logo-text fw-500">Car<span class="fw-200">Repair</span></span>
+                        </a> </div>
+                    </div>
+                    <!--
+						if you want to display toplogo info on smaller screens						than use following CSS classes below:
+						d-sm-flex justify-lg-content-end justify-content-sm-between align-items-center					-->
+                    <div class="d-flex justify-lg-content-end align-items-center meta-icons">
+                      <div class="media">
+                        <div class="media d-none d-md-flex">
+                        <div class="icon-styled color-main fs-20"> <i class="ico-placeholder"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6>Location</h6>
+                          <p class="fw-400">Reading, UK </p>
+                        </div>
+                      </div>
+                      <div class="media">
+                        <div class="icon-styled color-main fs-20"> <i class="ico-phone-call"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6>Phone</h6>
+                          <p class="fw-400"> 01189876300 </p>
+                        </div>
+                      </div>
+                      <div class="d-none d-xl-block"> <a href="https://www.manyautosltd.com/service-booking"
+
+                          class="btn btn-small btn-outline-maincolor btn-appointment">Schedule
+                          Maintenance</a> </div>
+                    </div>
+                  </div>
+                  <!-- header toggler --> </div>
+              </div>
+            </div>
+          </section>
+          <!--eof topline-->
+          <!-- header with single Bootstrap column only for navigation and includes. Used with topline and toplogo sections. Menu toggler must be in toplogo section -->
+          <header class="page_header s-py-10 s-py-lg-0 ds ms s-overlay nav-bordered justify-nav-center">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="d-lg-none col-11"> <a href="./" class="logo"> <img
+
+                      src="images/logo.png" alt=""> <span class="logo-text fw-500">Car<span
+
+                        class="fw-200">Car</span></span> </a> </div>
+                <div class="col-xl-12">
+                  <div class="nav-wrap">
+                    <!-- main nav start -->
+                    <nav class="top-nav">
+                      <ul class="nav sf-menu">
+                        <li> <a href="index">Home</a> </li>
+                        <li> <a href="about">about</a></li>
+                        <li class="active"> <a href="faq">faq</a> </li>
+                        <li> <a href="https://www.manyautosltd.com/contact">
+                            Contact</a></li>
+                    <!-- eof main nav --> </div>
+                </div>
+              </div>
+            </div>
+            <!-- header toggler --> <span class="toggle_menu"><span></span></span>
+          </header>
+          <section class="page_title ds s-pt-105 s-pb-50 s-pt-lg-115 s-pb-lg-60">
+            <div class="divider-3 d-none d-lg-block"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="bold text-center text-lg-left">FAQ</h1>
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"> <a href="./">Home</a> </li>
+                    <li class="breadcrumb-item"> <a href="#">Pages</a> </li>
+                    <li class="breadcrumb-item active"> FAQ </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1 class="text-darker-blue">FAQ</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="text-teal text-18 justify">If you have a query, our FAQs should be able to point you in the right direction. If you're not able to find an answer to your query, our Customer Services team will be happy to help you by email at info@manyautosltd.com or by telephone on 01189876300.</p>
+            </div>
+        </div>
+        <div class="info-accordion">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Will my service book be stamped when the work is complete?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes! Please make sure you leave your service book on the passenger seat of the car before your car is picked up, and we’ll do the rest.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Do you maintain online service record (service book)?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we work with the following manufacturers: Audi, BMW, Land Rover, Mazda, Mercedes, Mini, Seat, Skoda, Smart, Volkswagen. So, rest assured we are committed to providing you with the best service which includes making sure we update your records once we have carried out the work on the vehicle. For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Do you provide car repair finance?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, this means that we could help you secure the finance you require for car repairs. This gives you flexibility when it comes to financing your car repairs, and there's no need to worry about. you can pay for all or some of your car repair bill with car service and repair finance. From replacing car parts to a full transmission, engine, repair, service, mot repair maintaining your vehicle can get costly. If you need help paying for routine service or urgent repairs, Many Autos car service and repair could be the answer. For more information please visit our website https://www.manyautosltd.com/finance or live chat support open from 9am to 5pm Monday to Saturday you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Parts and labour guarantee.<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">All Repairs have 12 months parts and labour guarantee If there’s any fault with either the parts or labour within 12 months, we’ll put everything right, completely free of charge. Just Contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour-a">What makes of car do you Repair and Service?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour-a" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">At Many Autos we repair all makes and models of cars, within or outside of the manufacturer's warranty. Not only that, we also service vans and fleets, as well as offering MOTs and repairs. If you don't see your make or model on our website, then Contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Do you make car keys?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, Many Autos auto locksmith can help you with lost keys for any type of motor vehicle from a car, or van, if you need a spare car key cutting or your remote car key programming. if you've lost your car keys or would simply like another copy, then don't hesitate to Contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Do you buy unwanted cars?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we do buy unwanted or scrap cars if you like to sell then don't hesitate to Contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Will I get a receipt?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseSeven" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">You will receive a receipt this will include all the relevant information you need. You can print the email out and keep it for your records. For more information don’t hesitate please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">My car is under warranty, how will that be affected?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseEight" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Your car warranty will not be affected by using Many Autos. Due to a change in law in 2002, car manufacturers are not permitted to stop you using an independent garage to service or repair your car. we would advise following your manufacturer’s scheduling and using official manufacturer parts. This may increase the cost slightly, but you’ll always get a better deal than you would by going to a manufacturer. For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Can I book by phone?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseNine" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Of course, call us on 01189876300 our booking agents are on hand to take your calls and assist you with your service repair and booking Monday to Friday: 9am to 6pm, Saturday 10am to 5pm , via our live chat during the same hours or 24/7 on our website www.manyautosltd.com </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can I amend my booking?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseTen" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">You can amend your booking before your car is due to be collected, this gives us enough time to amend your car service and repairs, For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen-a">How do I pay?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapseTen-a" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="text-teal text-18 justify">You can pay online by credit or debit card. We do not accept American Express (Amex). You may also pay by bank transfer (BACS). Payment is due upon completion of the service, repairs or MOT and is required before the vehicle is returned. For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Does my service and repair come with a guarantee?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, Many Autos provide parts and labour warranty on all services and repairs from the day of your service and repair, all parts and labour are covered by a Many Autos 12-month guarantee - or 12,000 miles guarantee, whichever comes first. For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse23">Do you protect my warranty?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse23" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">We use only OE quality parts to protect your manufacturer warranty. Your service is also conducted according to our thorough service schedule. For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Do you do collection and delivery?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we believe that we offer a valuable product with our Free Collection and Delivery Service, we can collect either from your place of work or from your home address. If you are unsure about whether the address you are considering having your vehicle collected from is within our range, then please do contact us. Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one of our pool vehicles either in your work car park / parking space, or if in a residential area, we would need to be able to leave our car either at your house or on the road with a permit if required. We would be grateful if you could bear this in mind when booking to use our free Collection and delivery service. For more information please email us on info@manyautosltd.com or call us on 01189876300 or visit our website https://www.manyautosltd.com/collection-and-delivery </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Are your drivers insured?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, all our drivers are fully insured and take every reasonable care possible whilst driving your car. For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">What service do I need?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">We recommend a full service every 12 months or 12,000 miles, whichever comes first. If you've not used the car so much in that time, you might only need an interim service. We will always check the manufacturer's service schedule, as every car has different manufacturer requirements. For more information please visit our website visit our service page https://www.manyautosltd.com/car-service or you can email us on info@manyautosltd.com or call us on 01189876300.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">What the difference between Interim & full Service?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">The type of service you choose for your car will be dependent on various factors, including the condition of your car, the number of miles you drive and the last time your car was serviced. We offer two types of service for you Full Service which includes a comprehensive 70 points check while Interim Service has 50 points check. Find out what include in these services. https://www.manyautosltd.com/car-service  .For more information please contact us on info@manyautosltd.com or call our team on 01189876300 and we’ll take care of it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">I don’t have tax or MOT can you still collect my vehicle?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">If you are found to have failed to purchase or renew the road tax, you will be fined £80. Failure to pay this can result in a County Court Judgement or having your vehicle clamped. It is difficult to escape paying road tax, as the Drivers and Vehicles Licensing Agency (DVLA) runs monthly computer checks. For more information please visit our collection and delivery page our service page. https://www.manyautosltd.com/collection-and-delivery. Or email us on info@manyautosltd.com or call our team on 01189876300 and our team is very happy to help. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">How does collection and delivery work?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Many Autos operate a fleet of pool cars with a dedicated driver, so wherever we are collecting from, we need to be able to leave one of our pool vehicles either in your work car park / parking space, or if in a residential area, we would need to be able to leave our car either at your house or on the road with a permit if required. We would be grateful if you could bear this in mind when booking to use our free Collection and delivery service For more information please visit our collection and delivery page our service page. https://www.manyautosltd.com/collection-and-delivery. Or email us on info@manyautosltd.com or call our team on 01189876300 and our team is very happy to help. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">How do I know when my car needs servicing?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse11" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">A light may appear on your dashboard; you should get your car to the garage for a service as soon as possible as there are a range of engine problems that this light could indicate. A lot of cars also have a service light that will come on when your next service is due. For more information please visit our website visit our service page https://www.manyautosltd.com/car-service  or you can email us on info@manyautosltd.com or call us on 01189876300.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">How do I know when my car needs a MOT?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse12" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">You need the vehicle's number plate (registration number). You can see the results as soon as the MOT centre has recorded the test result. You'll need the 11-digit number from the vehicle's logbook (V5C) to see the test location. For more information please visit our website visit our MOT page https://www.manyautosltd.com/mot or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">How do I know if my car needs an oil change?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">‘Check engine’ or ‘oil change’ light. The most obvious alert that there's an issue with your oil will come from the car itself. Engine noise and knocking. Dark, dirty oil, oil smell inside the car, exhaust smoke, excessive mileage. Make sure you change the oil promptly. For more information please visit our website visit our oil change page https://www.manyautosltd.com/oil-change or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">How do I know when my car needs brake pads?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse14" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">First, check for wear by looking at your brake pads through the spaces between the wheel spokes. The outside pad will be pressed against a metal rotor. Generally, there should be at least 1/4 inch of pad. If you see less than 1/4 inch of pad, you may want to have your brake pads inspected or replaced. For more information please visit our website visit our brake page https://www.manyautosltd.com/brake-pads or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">How to find out if brake discs need replacing?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse15" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">If your car pulls to one side under braking, this is often a sign that your brake pads have worn unevenly and now need replacing. If your cars brakes make a clicking sound when the brake pedal is pressed, it means that your pads need replacing. For more information please visit our website visit our brake page https://www.manyautosltd.com/brake-disc or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">How do you know if brake fluid needs changing?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse16" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Every two year. Signs that you should get your brake fluid checked immediately include fluid that has a burnt door, is not clear or transparent, or is at a lower level than it's supposed to be. For more information please visit our website visit our brake page https://www.manyautosltd.com/brake-fluid or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">Is it safe to drive a car with ABS (warning) light on?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse17" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">The warning lights on your vehicle can indicate major faults, it is always best to get a professional to have a look at the vehicle to make sure it is not dangerous to yourself and other road users. It's also important to note that if both the ABS and Brake System warning lights come on at the same time while you're driving, you must stop your car immediately. For more information please visit our website visit our abs page https://www.manyautosltd.com/abs or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">How can you tell if your alternator is not working?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse18" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Start your cars engine. Did you notice that little red battery symbol come on briefly? It’s a warning symbol which, if it were to stay on, would indicate there’s a problem with the alternator. If the alternator has still got some life in it, the light may flicker or, if you make it work harder by turning on additional lights, the air con and the wipers, it may stay on. As the alternator really begins to pack up, those same systems may not function properly or stop working altogether. Since so many things are powered by electricity, you’d be surprised what can stop working, including vital instruments. However, it’s likely things will start failing in a pre-determined sequence with comfort features such as heated seats being the first to stop and the headlights, the last. If you pull over and raise the bonnet with the engine still running you might smell the alternator overheating, hear it making a grouching or whining noise or even, if you haven’t had it checked recently, see the rubber belt slipping or flapping about. For more information please visit our alternator page https://www.manyautosltd.com/alternator or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">How to tell if CV joint is bad?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse19" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">You will possibly hear loud clicking noises when turning. One of the most common and most noticeable symptoms of a bad or failing CV axle shaft assembly is an audible clicking noise when turning. When a CV axle become excessively worn, the joints will become loose and click when turning. For more information please visit our cv joint page https://www.manyautosltd.com/cv-joint or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse20">What happens when the catalytic converter goes bad?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse20" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">If the engine responds sluggishly or quits after running for a while, a clogged converter could be to blame. Catalytic converters can overheat because of excessive amounts of unburned gas caused by a misfiring spark plug or a leaky exhaust valve. In addition, a failed oxygen sensor can cause overheating. For more information please visit our catalytic converter page https://www.manyautosltd.com/catalytic-converter or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse21">Do you replace clutches?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse21" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, a lot of happy customers have found out how Many Autos can eliminate the time and trouble of shopping around for the best clutch repair price. So, don’t wait and sign up to our vehicle health check today and we can make you aware of any potential issue with your vehicle clutch. Clutch plate replacement and associated repairs are best left to an expert, so don’t leave it to chance and book with us and we can put you back in the driving seat soon. For more information please visit our clutch page https://www.manyautosltd.com/clutch-replacement or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">How find out if your clutch needs to be replaced?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse22" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">While driving down the road in 3rd gear, put the car in 2nd gear, then let out the clutch. If the RPMs of the engine don't immediately go up, it may be time to replace the clutch. For more information please visit our clutch page https://www.manyautosltd.com/clutch-replacement or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse31">How do I know if my flywheel needs replacing?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse31" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Gear slippage is the inability of the car to move to the next gear. Burning smell is also a sign. One of the major indicators of a bad car flywheel is a burning smell, like that of burnt toast. Clutch Vibrations; when you feel an intensified rumbling or vibration while you use the clutch, it can be a sign of a bad flywheel. For more information please visit our flywheel page https://www.manyautosltd.com/flywheel or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse24">Do you replace the Cambelt?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse24" class="panel-collapse collapse">
+
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we do. Most manufacturers recommend a cambelt change every 60,000 to 80,000 miles or 8-10 years of age, whichever comes first. Our timing belt check will help if you're unsure whether it's time for a replacement. For more information please visit our Timing belt page. https://www.manyautosltd.com/timing-belt or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse25">Do you repair suspension?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse25" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we do. The suspension is one such component that controls the majority of the control of the vehicle. The suspension connects the body of the car (and you) Via a system of Coil springs, shock absorbers, mounts and arms to the ground. The suspension also uses a variety of joints (ball joints, Anti roll bar links etc) to control the direction of the vehicle. Not only does the suspension system play a major role in the stability and safety of the vehicle it is also the main factor in driver and passenger comfort. If you are noticing any wobble in the stability of the vehicle, excessive bounce or stiff ride give make sure you don’t delay, book with us for a diagnostic as soon as possible. For more information please visit our suspension page https://www.manyautosltd.com/suspension-arm or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse26">Do you replace drive shafts?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse26" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we do replace drive shafts. For all cars with front and rear wheel drive the function of the drive shaft is to transfer the engine torque from a gearbox or differential to the wheels. It must also compensate for all variations in angle or length resulting from manoeuvring and deflection for perfect synchronisation between joints. For more information please visit our drive shaft page https://www.manyautosltd.com/drive-shaft or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse27">Do you repair Exhausts?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse27" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Yes, we are able to fit complete exhaust systems (we are able to carry out this service for the majority of the vehicles on the road the same day as the vehicle is brought to us). Seriously damaged exhausts may need to be cut off and replaced completely by a Many Autos, but we are also able to remove and replace sections where possible to save you money where we can. For more information please visit our exhaust page https://www.manyautosltd.com/exhaust-repair or you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse28">Are you an independent car repair garage?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse28" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">Many Autos is an independent car repair business and has been serving the community since 2001. We deal with all vehicle makes and models, so whatever the issue, Many Autos can get you back on the road. We also offer a free collection and delivery service from your home or work address. You may need anything from just a bulb to a full engine change or the common repairs such as brakes, clutch, exhausts or new tyre. We can help with all kind of repairs and regular maintenance. We offer exceptionally competitive prices for our service plans and ensure your car is serviced in accordance to (or even better than) your manufacturer’s guidelines. In addition, you can rest assured that our servicing does not affect the manufacturer warranty as we make sure our work and parts meet the stringent standards required. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse29">How do we do this?<span class="pull-right glyphicon glyphicon-plus"></span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse29" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="text-teal text-18 justify">All our service, repair and diagnostic work is carried out to the highest of standards using only OE (original equipment) parts and engine oil. We maintain a strict standard of work that means we can carry out service and repair work even if your vehicle is within its manufacturer warranty. This saves you a trip to the manufacturer for the service and saves you a lot of money. Not only do we have highly skilled technicians in the workshop, we also have all the latest servicing, wheel alignment, diagnostic and hybrid car servicing equipment. There are several car maintenances measures that you must do to keep your car at its best, it is important to bring your car to the nearest Many Autos Centre and have it checked. For more information please visit our website https://www.manyautosltd.com/ or live chat support open from 9am to 5pm Monday to Saturday you can email us on info@manyautosltd.com or call us on 01189876300 our team is very happy to help.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/bundles/info-scripts?v=eDJcytlF-dSVejKBBfS0fwwVriK7lS2Gb4d2Qrfo3Qc1"></script>
+        </section>
+         <div id="footer"></div>
+        <footer class="page_footer ds ms s-pt-60 s-pt-lg-80 c-gutter-40">
+          <div class="container">
+            <div class="row">
+              <div class="divider-20 d-none d-xl-block"></div>
+              <div class="col-md-4 animate" data-animation="fadeInUp">
+                <div class="widget widget_working_hours">
+                  <h3>Our Hours</h3>
+                  <ul class="list-bordered">
+                    <li class="row">
+                      <div class="col-6"> Monday </div>
+                      <div class="col-6"> <span class="color-darkgrey">9:30 -
+                          7:00pm</span> </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-6"> Tuesday </div>
+                      <div class="col-6"> <span class="color-darkgrey">9:30 -
+                          7:00pm</span> </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-6"> Wednesday </div>
+                      <div class="col-6"> <span class="color-darkgrey">9:30 -
+                          7:00pm</span> </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-6"> Thursday </div>
+                      <div class="col-6"> <span class="color-darkgrey">9:30 -
+                          7:00pm</span> </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-6"> Friday </div>
+                      <div class="col-6"> <span class="color-darkgrey">9:30 -
+                          7:00pm</span> </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-6"> Saturday </div>
+                      <div class="col-6"> <span class="color-darkgrey">10:00 -
+                          6:00pm</span> </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-6"> Sunday </div>
+                      <div class="col-6"> <span class="color-darkgrey">Closed</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 animate" data-animation="fadeInUp">
+                <div class="widget widget_contact_form">
+                  <h3 class="widget-title">Drop a line</h3>
+                  <form class="contact-form c-mb-20 c-gutter-20" method="post" action="sendmail.php">
+                    <div class="form-group has-placeholder"> <label for="name">Full
+                        Name <span class="required">*</span></label> <i class="fa fa-user color-darkgrey"></i>
+                      <input aria-required="true" size="30" value="" name="name"
+
+                        id="name" class="form-control" placeholder="Name" type="text">
+                    </div>
+                    <div class="form-group has-placeholder"> <label for="email">Email
+                        address<span class="required">*</span></label> <i class="fa fa-envelope color-darkgrey"></i>
+                      <input aria-required="true" size="30" value="" name="email"
+
+                        id="email" class="form-control" placeholder="Email" type="email">
+                    </div>
+                    <div class="form-group has-placeholder"> <label for="message">Message</label>
+                      <i class="fa fa-pencil color-darkgrey"></i> <textarea aria-required="true"
+
+rows="6" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group mt-30"> <button type="submit" id="contact_form_submit"
+
+                        name="contact_submit" class="btn btn-maincolor">Send
+                        Message </button> </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-4 animate" data-animation="fadeInUp">
+                <div class="widget widget_icons_list list2">
+                  <h3>Contacts</h3>
+                  <p>Contact us via phone or our online chat system</p>
+                  <div class="media side-icon-box">
+                    <div class="icon-styled color-main fs-14"> <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p class="media-body">Unit 4, Tunbridge Jones Industrial Estate
+Cradock Road, Reading, RG2 0JT</p>
+                  </div>
+                  <div class="media side-icon-box">
+                    <div class="icon-styled color-main fs-14"> <i class="fa fa-phone"></i>
+                    </div>
+                    <p class="media-body">01189876300</p>
+                  </div>
+                  
+                </div>
+                <div class="widget widget_social_buttons"> <a href="https://www.facebook.com/manyautoslimited/"
+
+                    class="fa fa-facebook color-bg-icon rounded-icon"></a> <a href="https://twitter.com/manyautos"
+
+                    class="fa fa-twitter color-bg-icon rounded-icon"></a> <a href="https://www.instagram.com/manyauto/"
+
+                    class="fa fa-instagram color-bg-icon rounded-icon"></a> <a href="https://www.google.com/search?q=many+autos&amp;rlz=1C1GGRV_enGB752GB752&amp;oq=many+autos&amp;aqs=chrome.0.0l3j69i61j69i60l2.3808j1j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x48769b68660a75cd:0x5f023a994d9e67fc,1,,,"
+
+                    class="fa fa-google color-bg-icon rounded-icon"></a> <a href="https://www.pinterest.co.uk/manyautos"
+
+                    class="fa fa-pinterest color-bg-icon rounded-icon"></a>  </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <section class="page_copyright ds ms s-pt-0 s-pb-25 s-py-lg-20">
+          <div class="container">
+            <div class="divider-2 d-none d-lg-block"></div>
+            <div class="row align-items-center">
+              <div class="divider-20 d-none d-lg-block"></div>
+              <div class="col-md-12 text-center">
+                <p class="social-icons with-border"> <span><a href="https://www.facebook.com/manyautoslimited/"
+
+                    class="fa fa-facebook-f"></a> <a href="https://twitter.com/manyautos"
+
+                    class="fa fa-twitter"></a> <a href="https://www.instagram.com/manyauto/"
+
+                    class="fa fa-instagram"></a> <a href="https://www.google.com/search?q=many+autos&amp;rlz=1C1GGRV_enGB752GB752&amp;oq=many+autos&amp;aqs=chrome.0.0l3j69i61j69i60l2.3808j1j7&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x48769b68660a75cd:0x5f023a994d9e67fc,1,,,"
+
+                    class="fa fa-google"></a> <a href="https://www.pinterest.co.uk/manyautos"
+
+                    class="fa fa-pinterest-p"></a></span>
+                </p>
+                <p>© Many Autos <span class="copyright_year"></span> All
+                  Rights Reserved</p>
+              </div>
+              <div class="divider-20 d-none d-lg-block"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eof #box_wrapper --> </div>
+    <!-- eof #canvas -->
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

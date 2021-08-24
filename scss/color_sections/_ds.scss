@@ -1,0 +1,208 @@
+/*
+** Dark Section background and Dark Muted background sections - .ds and .ds.ms
+*/
+/* dark grey background section - .ds */
+.ds {
+  background-color: $darkColor;
+  color: $lightColor;
+  & * & {
+    background-color: darken($darkColor, 5%);
+
+  }
+}
+
+/* dark background section - .ds.ms */
+.ds.ms {
+  background-color: $darkgreyColor;
+}
+
+/* dark section blue - .ds.bs */
+.ds.bs {
+  background-color: $darkBlueColor;
+}
+
+.ds {
+  a:not(.btn) {
+    color: $lightColor;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $lightColor;
+    a {
+      color: $lightColor;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  //light section in dark section - .ds .ls
+  .ls {
+    background-color: $lightColor;
+    color: $fontColor;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $darkgreyColor;
+      a {
+        color: inherit;
+        &:hover {
+          color: $colorMain;
+        }
+      }
+    }
+    a:not(.btn) {
+      color: $darkgreyColor;
+      &:hover {
+        color: $colorMain;
+      }
+    }
+  }
+  //end of .ls inside .ds
+
+  label {
+    color: $lightColor;
+  }
+
+  hr {
+    border-color: $darkBorderColor;
+    background-color: $darkBorderColor;
+  }
+  blockquote, .blockquote {
+    color: $lightColor;
+  }
+
+  pre {
+    color: $darkFontColor;
+  }
+
+  .muted-bg,
+  .hero-bg {
+    background-color: $darkBackgroundColor;
+  }
+
+  .bordered {
+    border-color: $darkBorderColor;
+  }
+  .color-main {
+    color: $colorMain;
+  }
+  .color-main2 {
+    color: $colorMain2;
+  }
+  .color-dark,
+  .color-darkgrey {
+    color: $lightColor;
+    border-color: $lightColor;
+  }
+
+  .links-maincolor a {
+    color: $colorMain;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+  .links-maincolor2 a {
+    color: $colorMain2;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+  .links-maincolor3 a {
+    color: $colorMain3;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+
+  .links-grey a {
+    color: $darkFontColor;
+    &:hover {
+      color: $lightColor;
+    }
+  }
+
+  .links-darkgrey a {
+    color: $lightColor;
+    &:hover {
+      color: $colorMain;
+    }
+  }
+
+  //buttons
+  .btn-maincolor:hover,
+  .btn-maincolor2:hover,
+  .btn-maincolor3:hover,
+  .btn-darkgrey:hover,
+  .btn-grey:hover {
+    color: $lightColor;
+  }
+
+  .btn-darkgrey {
+    background-color: $lightColor;
+    color: $darkColor;
+      &:hover {
+      border-color: $lightColor;
+      background-color: transparent;
+    }
+  }
+  
+
+  .btn-outline-maincolor,
+  .btn-outline-maincolor2,
+  .btn-outline-maincolor3,
+  .btn-outline-darkgrey,
+  .btn-outline-grey {
+    color: $lightColor;
+  }
+  
+   .btn-outline-darkgrey {
+    border-color: $lightColor;
+    &:hover {
+      background-color: $lightColor;
+      color: $darkColor;
+    }
+  }
+
+
+  .btn-outline-grey:hover {
+    background-color: $greyColor;
+    color: $colorMain;
+  }
+
+  //social icons
+  a.fa {
+    color: $lightColor;
+    border-color: $darkBorderColor;
+  }
+  a.bg-icon {
+    background-color: $darkBackgroundColor;
+  }
+
+  .fa.color-icon:hover {
+    color: $lightColor;
+  }
+
+  .color-icon.bg-icon {
+    background-color: $darkBackgroundColor;
+  }
+  .color-icon.bg-icon:hover {
+    color: $lightColor;
+  }
+
+  .color-bg-icon:hover {
+    background-color: $colorMain;
+  }
+}
